@@ -1,0 +1,14 @@
+Name: Anita Sharma
+
+Education:
+B.Tech Information Technology
+
+Experience:
+3 years as a Java Developer
+
+Skills:
+Java, Spring Boot, REST APIs, MySQL
+
+Projects:
+Developed backend APIs for a fintech application.
+Worked on Spring Boot microservices.

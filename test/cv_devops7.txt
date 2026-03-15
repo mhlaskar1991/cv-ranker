@@ -1,0 +1,13 @@
+Name: Neha Gupta
+
+Education:
+M.Sc Artificial Intelligence
+
+Experience:
+4 years Machine Learning Engineer
+
+Skills:
+Python, TensorFlow, Machine Learning, Data Analysis
+
+Projects:
+Built recommendation systems using deep learning.

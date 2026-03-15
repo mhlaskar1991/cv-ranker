@@ -1,0 +1,14 @@
+Name: Rahul Sharma
+
+Education:
+B.Tech in Computer Science, IIT Delhi
+
+Experience:
+4 years as a Data Scientist at a fintech company.
+
+Skills:
+Python, Machine Learning, TensorFlow, PyTorch, Data Analysis, SQL
+
+Projects:
+Built a fraud detection system using deep learning.
+Developed machine learning pipelines for credit risk prediction.

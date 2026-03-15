@@ -1,0 +1,2 @@
+Looking for a Python developer with machine learning experience.
+Skills required: Python, ML, TensorFlow, data analysis.

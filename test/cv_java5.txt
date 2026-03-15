@@ -1,0 +1,14 @@
+Name: Karan Singh
+
+Education:
+B.Tech Computer Engineering
+
+Experience:
+6 years as Full Stack Developer
+
+Skills:
+Java, Spring Boot, Angular, REST APIs, MySQL
+
+Projects:
+Developed full stack enterprise applications.
+Built REST services using Spring Boot.

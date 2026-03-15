@@ -1,0 +1,16 @@
+{
+  "parser_model": "google/flan-t5-large",
+  "ranker_model": "google/flan-t5-xl",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+
+  "max_tokens": 128,
+
+  "scoring": {
+    "llm_weight": 0.5,
+    "similarity_weight": 0.3,
+    "skill_weight": 0.2
+  },
+
+  "similarity_scale": 10,
+  "skill_overlap_multiplier": 2
+}

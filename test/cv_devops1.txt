@@ -1,0 +1,14 @@
+Name: Rohan Mehta
+
+Education:
+B.Tech Computer Engineering
+
+Experience:
+6 years as DevOps Engineer
+
+Skills:
+Docker, Kubernetes, CI/CD, AWS, Linux
+
+Projects:
+Built automated deployment pipelines using Jenkins.
+Managed containerized infrastructure using Kubernetes.

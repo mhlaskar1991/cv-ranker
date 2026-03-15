@@ -1,0 +1,14 @@
+Name: Arjun Patel
+
+Education:
+M.Tech Software Engineering
+
+Experience:
+5 years as a Backend Developer
+
+Skills:
+Python, Django, REST APIs, PostgreSQL, Docker
+
+Projects:
+Built backend services for data processing platforms.
+Developed REST APIs using Django.

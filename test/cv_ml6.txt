@@ -1,0 +1,14 @@
+Name: Arjun Patel
+
+Education:
+M.Sc in Data Science
+
+Experience:
+3 years as a Data Analyst.
+
+Skills:
+Python, Data Analysis, Pandas, SQL, Tableau
+
+Projects:
+Built dashboards for business intelligence.
+Performed statistical analysis on sales data.

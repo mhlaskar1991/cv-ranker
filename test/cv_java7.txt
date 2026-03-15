@@ -1,0 +1,13 @@
+Name: Vivek Nair
+
+Education:
+B.Tech Information Technology
+
+Experience:
+6 years as DevOps Engineer
+
+Skills:
+Docker, Kubernetes, CI/CD, AWS, Linux
+
+Projects:
+Managed deployment pipelines and cloud infrastructure.

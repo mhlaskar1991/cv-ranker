@@ -1,0 +1,14 @@
+Name: Sneha Kapoor
+
+Education:
+M.Tech Information Technology
+
+Experience:
+5 years as Cloud Engineer
+
+Skills:
+AWS, Docker, Terraform, Linux, CI/CD
+
+Projects:
+Deployed microservices infrastructure on AWS.
+Automated infrastructure using Terraform.

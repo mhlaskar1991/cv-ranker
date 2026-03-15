@@ -1,0 +1,14 @@
+Name: Rahul Verma
+
+Education:
+B.Tech Computer Science
+
+Experience:
+7 years as a Backend Software Engineer
+
+Skills:
+Java, Spring Boot, Microservices, REST APIs, SQL, Docker
+
+Projects:
+Developed microservices architecture for an e-commerce platform.
+Built scalable REST APIs using Spring Boot.

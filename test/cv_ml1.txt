@@ -1,0 +1,2 @@
+Software developer with 3 years experience in Python and Django.
+Worked on backend APIs.

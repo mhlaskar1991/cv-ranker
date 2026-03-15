@@ -1,0 +1,14 @@
+Name: Priya Nair
+
+Education:
+B.Tech Information Technology
+
+Experience:
+7 years DevOps Engineer
+
+Skills:
+Docker, Kubernetes, AWS, CI/CD, Terraform, Linux
+
+Projects:
+Managed container orchestration using Kubernetes.
+Implemented automated CI/CD pipelines.

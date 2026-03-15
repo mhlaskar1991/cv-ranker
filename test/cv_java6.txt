@@ -1,0 +1,13 @@
+Name: Neha Gupta
+
+Education:
+M.Sc Data Science
+
+Experience:
+4 years as Data Scientist
+
+Skills:
+Python, Machine Learning, TensorFlow, Pandas, SQL
+
+Projects:
+Built machine learning pipelines for recommendation systems.

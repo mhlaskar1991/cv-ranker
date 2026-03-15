@@ -1,0 +1,14 @@
+Name: Arjun Patel
+
+Education:
+M.Sc Data Science
+
+Experience:
+4 years as Data Engineer
+
+Skills:
+Python, Spark, Airflow, SQL
+
+Projects:
+Built data pipelines for large datasets.
+Developed ETL workflows using Apache Airflow.

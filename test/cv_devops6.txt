@@ -1,0 +1,14 @@
+Name: Amit Sharma
+
+Education:
+B.Sc Computer Science
+
+Experience:
+6 years System Administrator
+
+Skills:
+Linux, Shell scripting, Networking, VMware
+
+Projects:
+Maintained enterprise Linux infrastructure.
+Managed system monitoring and server maintenance.

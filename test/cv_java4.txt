@@ -1,0 +1,14 @@
+Name: Priya Mehta
+
+Education:
+M.Tech Computer Science
+
+Experience:
+10 years as Senior Software Engineer
+
+Skills:
+Java, Spring Boot, Microservices, Kubernetes, AWS, SQL
+
+Projects:
+Led backend architecture for large-scale banking platform.
+Built microservices using Spring Boot and Kubernetes.

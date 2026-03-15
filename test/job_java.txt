@@ -1,0 +1,17 @@
+Job Title: Senior Software Engineer
+
+We are looking for a Senior Software Engineer with strong experience in Java and Spring Boot.
+
+Requirements:
+- 5+ years of experience in software development
+- Strong Java programming skills
+- Experience with Spring Boot and microservices
+- Experience with REST APIs
+- Experience with SQL or relational databases
+- Familiarity with cloud platforms is a plus
+
+Responsibilities:
+- Design and develop scalable backend systems
+- Build REST APIs and microservices
+- Work with distributed systems
+- Mentor junior engineers

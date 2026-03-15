@@ -1,0 +1,14 @@
+Name: Anita Verma
+
+Education:
+B.Sc in Information Technology
+
+Experience:
+2 years as a Software Developer.
+
+Skills:
+Python, Flask, REST APIs, SQL
+
+Projects:
+Developed backend services using Flask.
+Created automation scripts for data processing.

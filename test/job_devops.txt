@@ -1,0 +1,16 @@
+Job Title: Senior DevOps Engineer
+
+We are looking for a Senior DevOps Engineer to build and maintain scalable cloud infrastructure.
+
+Requirements:
+- Strong experience with Docker and Kubernetes
+- Experience with CI/CD pipelines
+- Experience with AWS or other cloud platforms
+- Experience with Linux systems
+- Experience with infrastructure automation tools
+
+Responsibilities:
+- Build and maintain CI/CD pipelines
+- Manage cloud infrastructure
+- Deploy containerized applications
+- Monitor and maintain system reliability
