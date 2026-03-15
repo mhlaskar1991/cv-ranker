@@ -1,0 +1,174 @@
+Job description: Job Title: Senior DevOps Engineer
+
+We are looking for a Senior DevOps Engineer to build and maintain scalable cloud infrastructure.
+
+Requirements:
+- Strong experience with Docker and Kubernetes
+- Experience with CI/CD pipelines
+- Experience with AWS or other cloud platforms
+- Experience with Linux systems
+- Experience with infrastructure automation tools
+
+Responsibilities:
+- Build and maintain CI/CD pipelines
+- Manage cloud infrastructure
+- Deploy containerized applications
+- Monitor and maintain system reliability
+Extracting job skills...
+Job skills: ['strong experience with docker and kubernetes experience with ci/cd pipelines experience with aws or other cloud platforms experience with linux systems experience with infrastructure automation tools']
+
+Evaluating test/cv_devops1.txt
+Parsing CV text:: Name: Rohan Mehta
+
+Education:
+B.Tech Computer Engineering
+
+Experience:
+6 years as DevOps Engineer
+
+Skills:
+Docker, Kubernetes, CI/CD, AWS, Linux
+
+Projects:
+Built automated deployment pipelines using Jenkins.
+Managed containerized infrastructure using Kubernetes.
+Parsed CV: {'skills': [], 'education': 'B.Tech Computer Engineering', 'experience': '6 years as DevOps Engineer'}
+Model output: 6
+LLM Score: 6.0
+Skill Overlap: 5
+Final Score: 7.28
+
+Evaluating test/cv_devops2.txt
+Parsing CV text:: Name: Sneha Kapoor
+
+Education:
+M.Tech Information Technology
+
+Experience:
+5 years as Cloud Engineer
+
+Skills:
+AWS, Docker, Terraform, Linux, CI/CD
+
+Projects:
+Deployed microservices infrastructure on AWS.
+Automated infrastructure using Terraform.
+Parsed CV: {'skills': ['aws', 'docker', 'terraform', 'linux', 'ci/cd'], 'education': 'M.Tech Information Technology', 'experience': '5 years as Cloud Engineer'}
+Model output: 6
+LLM Score: 6.0
+Skill Overlap: 4
+Final Score: 6.49
+
+Evaluating test/cv_devops3.txt
+Parsing CV text:: Name: Rahul Verma
+
+Education:
+B.Tech Computer Science
+
+Experience:
+5 years as Backend Developer
+
+Skills:
+Java, Spring Boot, REST APIs, SQL
+
+Projects:
+Developed backend microservices using Spring Boot.
+Built REST APIs for enterprise applications.
+Parsed CV: {'skills': ['java', 'spring boot', 'rest apis', 'sql'], 'education': 'B.Tech Computer Science', 'experience': 'backend developer'}
+Model output: 2
+LLM Score: 2.0
+Skill Overlap: 0
+Final Score: 2.12
+
+Evaluating test/cv_devops4.txt
+Parsing CV text:: Name: Arjun Patel
+
+Education:
+M.Sc Data Science
+
+Experience:
+4 years as Data Engineer
+
+Skills:
+Python, Spark, Airflow, SQL
+
+Projects:
+Built data pipelines for large datasets.
+Developed ETL workflows using Apache Airflow.
+Parsed CV: {'skills': ['python', 'spark', 'airflow', 'sql'], 'education': 'M.Sc', 'experience': '4 years as Data Engineer'}
+Model output: 6
+LLM Score: 6.0
+Skill Overlap: 0
+Final Score: 4.71
+
+Evaluating test/cv_devops5.txt
+Parsing CV text:: Name: Priya Nair
+
+Education:
+B.Tech Information Technology
+
+Experience:
+7 years DevOps Engineer
+
+Skills:
+Docker, Kubernetes, AWS, CI/CD, Terraform, Linux
+
+Projects:
+Managed container orchestration using Kubernetes.
+Implemented automated CI/CD pipelines.
+Parsed CV: {'skills': [], 'education': 'B.Tech Information Technology', 'experience': '7 years DevOps Engineer'}
+Model output: 6
+LLM Score: 6.0
+Skill Overlap: 5
+Final Score: 7.24
+
+Evaluating test/cv_devops6.txt
+Parsing CV text:: Name: Amit Sharma
+
+Education:
+B.Sc Computer Science
+
+Experience:
+6 years System Administrator
+
+Skills:
+Linux, Shell scripting, Networking, VMware
+
+Projects:
+Maintained enterprise Linux infrastructure.
+Managed system monitoring and server maintenance.
+Parsed CV: {'skills': ['linux', 'shell scripting', 'networking', 'vmware'], 'education': 'B.Sc Computer Science', 'experience': '6 years System Administrator'}
+Model output: 6
+LLM Score: 6.0
+Skill Overlap: 0
+Final Score: 4.67
+
+Evaluating test/cv_devops7.txt
+Parsing CV text:: Name: Neha Gupta
+
+Education:
+M.Sc Artificial Intelligence
+
+Experience:
+4 years Machine Learning Engineer
+
+Skills:
+Python, TensorFlow, Machine Learning, Data Analysis
+
+Projects:
+Built recommendation systems using deep learning.
+Parsed CV: {'skills': ['python', 'tensorflow', 'machine learning', 'data analysis'], 'education': 'M.Sc', 'experience': '4 years Machine Learning Engineer'}
+Model output: 4
+LLM Score: 4.0
+Skill Overlap: 0
+Final Score: 3.04
+
+Final Ranking:
+
+1. test/cv_devops1.txt | Score: 7.28
+2. test/cv_devops5.txt | Score: 7.24
+3. test/cv_devops2.txt | Score: 6.49
+4. test/cv_devops4.txt | Score: 4.71
+5. test/cv_devops6.txt | Score: 4.67
+6. test/cv_devops7.txt | Score: 3.04
+7. test/cv_devops3.txt | Score: 2.12

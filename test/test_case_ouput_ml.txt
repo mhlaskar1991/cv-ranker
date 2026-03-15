@@ -1,0 +1,128 @@
+Job description: Looking for a Python developer with machine learning experience.
+Skills required: Python, ML, TensorFlow, data analysis.
+
+Extracting job skills...
+Job skills: ['python', 'ml', 'tensorflow', 'data analysis']
+
+Evaluating test/cv_ml1.txt
+Parsing CV text:: Software developer with 3 years experience in Python and Django.
+Worked on backend APIs.
+
+Parsed CV: {'skills': ['python', 'django'], 'education': 'None', 'experience': '3 years software developer'}
+Model output: 4
+LLM Score: 4.0
+Skill Overlap: 1
+Final Score: 3.94
+
+Evaluating test/cv_ml2.txt
+Parsing CV text:: Data scientist with 4 years experience.
+Skills include Python, TensorFlow, Machine Learning, data analysis.
+
+Parsed CV: {'skills': ['python', 'tensorflow', 'machine learning', 'data analysis'], 'education': 'None', 'experience': '4 years'}
+Model output: 4
+LLM Score: 4.0
+Skill Overlap: 3
+Final Score: 5.44
+
+Evaluating test/cv_ml3.txt
+Parsing CV text:: Backend developer specializing in Java and Spring Boot.
+2 years experience.
+
+Parsed CV: {'skills': ['java', 'spring boot'], 'education': 'None', 'experience': 'backend developer'}
+Model output: 2
+LLM Score: 2.0
+Skill Overlap: 0
+Final Score: 2.04
+
+Evaluating test/cv_ml4.txt
+Parsing CV text:: Name: Rahul Sharma
+
+Education:
+B.Tech in Computer Science, IIT Delhi
+
+Experience:
+4 years as a Data Scientist at a fintech company.
+
+Skills:
+Python, Machine Learning, TensorFlow, PyTorch, Data Analysis, SQL
+
+Projects:
+Built a fraud detection system using deep learning.
+Developed machine learning pipelines for credit risk prediction.
+Parsed CV: {'skills': ['python', 'machine learning', 'tensorflow', 'pytorch', 'data analysis', 'sql'], 'education': 'B.Tech in Computer Science, IIT Delhi', 'experience': '4 years as a Data Scientist'}
+Model output: 6
+LLM Score: 6.0
+Skill Overlap: 3
+Final Score: 5.7
+
+Evaluating test/cv_ml5.txt
+Parsing CV text:: Name: Anita Verma
+
+Education:
+B.Sc in Information Technology
+
+Experience:
+2 years as a Software Developer.
+
+Skills:
+Python, Flask, REST APIs, SQL
+
+Projects:
+Developed backend services using Flask.
+Created automation scripts for data processing.
+Parsed CV: {'skills': ['python', 'flask', 'rest apis', 'sql'], 'education': 'B.Sc in Information Technology', 'experience': 'software developer'}
+Model output: 6
+LLM Score: 6.0
+Skill Overlap: 1
+Final Score: 4.96
+
+Evaluating test/cv_ml6.txt
+Parsing CV text:: Name: Arjun Patel
+
+Education:
+M.Sc in Data Science
+
+Experience:
+3 years as a Data Analyst.
+
+Skills:
+Python, Data Analysis, Pandas, SQL, Tableau
+
+Projects:
+Built dashboards for business intelligence.
+Performed statistical analysis on sales data.
+Parsed CV: {'skills': ['python', 'data analysis', 'pandas', 'sql', 'tableau'], 'education': 'M.Sc in Data Science', 'experience': '3 years as a data analyst'}
+Model output: 6
+LLM Score: 6.0
+Skill Overlap: 2
+Final Score: 5.13
+
+Evaluating test/cv_ml7.txt
+Parsing CV text:: Name: Karan Gupta
+
+Education:
+B.Tech Mechanical Engineering
+
+Experience:
+1 year as a Mechanical Design Engineer.
+
+Skills:
+AutoCAD, SolidWorks, MATLAB
+
+Projects:
+Designed mechanical components for manufacturing.
+Parsed CV: {'skills': ['autocad', 'solidworks', 'matlab'], 'education': 'B.Tech Mechanical Engineering', 'experience': '1 year'}
+Model output: 2
+LLM Score: 2.0
+Skill Overlap: 0
+Final Score: 2.04
+
+Final Ranking:
+
+1. test/cv_ml4.txt | Score: 5.7
+2. test/cv_ml2.txt | Score: 5.44
+3. test/cv_ml6.txt | Score: 5.13
+4. test/cv_ml5.txt | Score: 4.96
+5. test/cv_ml1.txt | Score: 3.94
+6. test/cv_ml3.txt | Score: 2.04
+7. test/cv_ml7.txt | Score: 2.04

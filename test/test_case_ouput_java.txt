@@ -1,0 +1,174 @@
+Job description: Job Title: Senior Software Engineer
+
+We are looking for a Senior Software Engineer with strong experience in Java and Spring Boot.
+
+Requirements:
+- 5+ years of experience in software development
+- Strong Java programming skills
+- Experience with Spring Boot and microservices
+- Experience with REST APIs
+- Experience with SQL or relational databases
+- Familiarity with cloud platforms is a plus
+
+Responsibilities:
+- Design and develop scalable backend systems
+- Build REST APIs and microservices
+- Work with distributed systems
+- Mentor junior engineers
+Extracting job skills...
+Job skills: ['java', 'spring boot', 'rest apis', 'sql', 'familiarity with cloud platforms']
+
+Evaluating test/cv_java1.txt
+Parsing CV text:: Name: Rahul Verma
+
+Education:
+B.Tech Computer Science
+
+Experience:
+7 years as a Backend Software Engineer
+
+Skills:
+Java, Spring Boot, Microservices, REST APIs, SQL, Docker
+
+Projects:
+Developed microservices architecture for an e-commerce platform.
+Built scalable REST APIs using Spring Boot.
+Parsed CV: {'skills': ['java', 'spring boot', 'microservices', 'rest apis', 'sql', 'docker'], 'education': 'B.Tech Computer Science', 'experience': '7 years as a Backend Software Engineer'}
+Model output: 6
+LLM Score: 6.0
+Skill Overlap: 4
+Final Score: 6.39
+
+Evaluating test/cv_java2.txt
+Parsing CV text:: Name: Anita Sharma
+
+Education:
+B.Tech Information Technology
+
+Experience:
+3 years as a Java Developer
+
+Skills:
+Java, Spring Boot, REST APIs, MySQL
+
+Projects:
+Developed backend APIs for a fintech application.
+Worked on Spring Boot microservices.
+Parsed CV: {'skills': ['java', 'spring boot', 'rest apis', 'mysql'], 'education': 'B.Tech Information Technology', 'experience': '3 years as a Java Developer'}
+Model output: 6
+LLM Score: 6.0
+Skill Overlap: 4
+Final Score: 6.62
+
+Evaluating test/cv_java3.txt
+Parsing CV text:: Name: Arjun Patel
+
+Education:
+M.Tech Software Engineering
+
+Experience:
+5 years as a Backend Developer
+
+Skills:
+Python, Django, REST APIs, PostgreSQL, Docker
+
+Projects:
+Built backend services for data processing platforms.
+Developed REST APIs using Django.
+Parsed CV: {'skills': ['python', 'django', 'rest apis', 'postgresql', 'docker'], 'education': 'M.Tech', 'experience': 'backend developer'}
+Model output: 2
+LLM Score: 2.0
+Skill Overlap: 2
+Final Score: 3.58
+
+Evaluating test/cv_java4.txt
+Parsing CV text:: Name: Priya Mehta
+
+Education:
+M.Tech Computer Science
+
+Experience:
+10 years as Senior Software Engineer
+
+Skills:
+Java, Spring Boot, Microservices, Kubernetes, AWS, SQL
+
+Projects:
+Led backend architecture for large-scale banking platform.
+Built microservices using Spring Boot and Kubernetes.
+Parsed CV: {'skills': ['java', 'spring boot', 'microservices', 'kubernetes', 'aws', 'sql'], 'education': 'M.Tech Computer Science', 'experience': '10 years as Senior Software Engineer'}
+Model output: 6
+LLM Score: 6.0
+Skill Overlap: 3
+Final Score: 6.24
+
+Evaluating test/cv_java5.txt
+Parsing CV text:: Name: Karan Singh
+
+Education:
+B.Tech Computer Engineering
+
+Experience:
+6 years as Full Stack Developer
+
+Skills:
+Java, Spring Boot, Angular, REST APIs, MySQL
+
+Projects:
+Developed full stack enterprise applications.
+Built REST services using Spring Boot.
+Parsed CV: {'skills': ['java', 'spring boot', 'angular', 'rest apis', 'mysql'], 'education': 'B.Tech Computer Engineering', 'experience': '6 years as Full Stack Developer'}
+Model output: 6
+LLM Score: 6.0
+Skill Overlap: 4
+Final Score: 6.76
+
+Evaluating test/cv_java6.txt
+Parsing CV text:: Name: Neha Gupta
+
+Education:
+M.Sc Data Science
+
+Experience:
+4 years as Data Scientist
+
+Skills:
+Python, Machine Learning, TensorFlow, Pandas, SQL
+
+Projects:
+Built machine learning pipelines for recommendation systems.
+Parsed CV: {'skills': ['python', 'machine learning', 'tensorflow', 'pandas', 'sql'], 'education': 'M.Sc', 'experience': '4 years as Data Scientist'}
+Model output: 2
+LLM Score: 2.0
+Skill Overlap: 1
+Final Score: 2.61
+
+Evaluating test/cv_java7.txt
+Parsing CV text:: Name: Vivek Nair
+
+Education:
+B.Tech Information Technology
+
+Experience:
+6 years as DevOps Engineer
+
+Skills:
+Docker, Kubernetes, CI/CD, AWS, Linux
+
+Projects:
+Managed deployment pipelines and cloud infrastructure.
+Parsed CV: {'skills': [], 'education': 'B.Tech Information Technology', 'experience': '6 years as DevOps Engineer'}
+Model output: 4
+LLM Score: 4.0
+Skill Overlap: 0
+Final Score: 3.58
+
+Final Ranking:
+
+1. test/cv_java5.txt | Score: 6.76
+2. test/cv_java2.txt | Score: 6.62
+3. test/cv_java1.txt | Score: 6.39
+4. test/cv_java4.txt | Score: 6.24
+5. test/cv_java3.txt | Score: 3.58
+6. test/cv_java7.txt | Score: 3.58
+7. test/cv_java6.txt | Score: 2.61

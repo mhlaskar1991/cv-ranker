@@ -1,4 +1,5 @@
 #Env setup
+python3.11 -m venv venv
 pip install -r requirements.txt
 
 #Running the Program
@@ -6,17 +7,34 @@ python main.py --job <job_description_file> --cvs <cv1> <cv2> <cv3> ...
 
 #Examples
 python main.py --job test/job_ml.txt --cvs test/cv_ml1.txt test/cv_ml2.txt test/cv_ml3.txt test/cv_ml4.txt test/cv_ml5.txt test/cv_ml6.txt test/cv_ml7.txt
-Final Ranking:
 
-1. test/cv_ml2.txt | Score: 6.44
-2. test/cv_ml4.txt | Score: 5.7
+Final Ranking:
+1. test/cv_ml4.txt | Score: 5.7
+2. test/cv_ml2.txt | Score: 5.44
 3. test/cv_ml6.txt | Score: 5.13
 4. test/cv_ml5.txt | Score: 4.96
-5. test/cv_ml1.txt | Score: 4.94
+5. test/cv_ml1.txt | Score: 3.94
 6. test/cv_ml3.txt | Score: 2.04
 7. test/cv_ml7.txt | Score: 2.04
 
 python main.py --job test/job_java.txt --cvs test/cv_java1.txt test/cv_java2.txt test/cv_java3.txt test/cv_java4.txt test/cv_java5.txt test/cv_java6.txt test/cv_java7.txt
 
+Final Ranking:
+1. test/cv_java5.txt | Score: 6.76
+2. test/cv_java2.txt | Score: 6.62
+3. test/cv_java1.txt | Score: 6.39
+4. test/cv_java4.txt | Score: 6.24
+5. test/cv_java3.txt | Score: 3.58
+6. test/cv_java7.txt | Score: 3.58
+7. test/cv_java6.txt | Score: 2.61
 
 python main.py --job test/job_devops.txt --cvs test/cv_devops1.txt test/cv_devops2.txt test/cv_devops3.txt test/cv_devops4.txt test/cv_devops5.txt test/cv_devops6.txt test/cv_devops7.txt
+
+Final Ranking:
+1. test/cv_devops1.txt | Score: 7.28
+2. test/cv_devops5.txt | Score: 7.24
+3. test/cv_devops2.txt | Score: 6.49
+4. test/cv_devops4.txt | Score: 4.71
+5. test/cv_devops6.txt | Score: 4.67
+6. test/cv_devops7.txt | Score: 3.04
+7. test/cv_devops3.txt | Score: 2.12
