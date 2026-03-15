@@ -1,4 +1,5 @@
 import argparse
+import logging
 
 from helper.utils import load_file, load_config, skill_overlap, extract_skills_llm
 from helper.model_loader import load_model
@@ -8,6 +9,11 @@ from helper.similarity import similarity_score, load_embedding_model
 
 
 def main():
+
+    logging.basicConfig(
+        level=logging.DEBUG,
+        format="%(asctime)s - %(levelname)s - %(message)s"
+    )
 
     parser = argparse.ArgumentParser()
 
@@ -31,36 +37,36 @@ def main():
     similarity_scale = config["similarity_scale"]
     skill_multiplier = config["skill_overlap_multiplier"]
 
-    print("Loading parser model...")
+    logging.debug("Loading parser model...")
     parser_tokenizer, parser_model = load_model(parser_model_name)
 
-    print("Loading ranker model...")
+    logging.debug("Loading ranker model...")
     ranker_tokenizer, ranker_model = load_model(ranker_model_name)
 
-    print("Loading embedding model...")
+    logging.debug("Loading embedding model...")
     embedding_model = load_embedding_model(embedding_model_name)
 
     job_description = load_file(args.job)
-    print("Job description: {}".format(job_description))
+    logging.debug(f"Job description: {job_description}")
 
     # Extract job skills once
-    print("Extracting job skills...")
+    logging.debug("Extracting job skills...")
     job_skills = extract_skills_llm(
         job_description,
         parser_tokenizer,
         parser_model
     )
 
-    print("Job skills:", job_skills)
+    logging.debug(f"Job skills: {job_skills}")
 
     results = []
 
     for cv_file in args.cvs:
 
-        print(f"\nEvaluating {cv_file}")
+        logging.debug(f"Evaluating {cv_file}")
 
         cv_text = load_file(cv_file)
-        print("Parsing CV text:: {}".format(cv_text))
+        logging.debug(f"Parsing CV text:: {cv_text}")
 
         # Step 1: Parse CV
         parsed_cv = parse_cv(
@@ -70,7 +76,7 @@ def main():
             max_tokens
         )
 
-        print("Parsed CV:", parsed_cv)
+        logging.debug(f"Parsed CV: {parsed_cv}")
 
         # Step 2: LLM candidate scoring
         llm_score = score_cv(
@@ -81,7 +87,7 @@ def main():
             max_tokens
         )
 
-        print("LLM Score:", llm_score)
+        logging.debug(f"LLM Score: {llm_score}")
 
         # Step 3: Skill overlap
         overlap = skill_overlap(
@@ -91,7 +97,7 @@ def main():
             parser_model
         )
 
-        print("Skill Overlap:", overlap)
+        logging.debug(f"Skill Overlap: {overlap}")
 
         # Step 4: Semantic similarity
         sim_score = similarity_score(
@@ -109,7 +115,7 @@ def main():
 
         final_score = round(final_score, 2)
 
-        print("Final Score:", final_score)
+        logging.debug(f"Final Score: {final_score}")
 
         results.append((cv_file, final_score))
 

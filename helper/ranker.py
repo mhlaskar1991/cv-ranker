@@ -1,4 +1,6 @@
 import re
+import logging
+
 
 def score_cv(job_description, parsed_cv, tokenizer, model, max_tokens):
 
@@ -45,7 +47,7 @@ Score:
     )
 
     result = tokenizer.decode(outputs[0], skip_special_tokens=True)
-    print("Model output:", result)
+    logging.debug(f"Model output: {result}")
 
     # Extract first number from output
     match = re.search(r"\d+", result)
